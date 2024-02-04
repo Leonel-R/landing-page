@@ -58,7 +58,7 @@ button {
     gap: 50px;
     width: 45%;
     height: 150px;
-    margin: 0 auto 200px auto;
+    margin: 0 auto 150px auto;
     color:#F9FAF8;
     
 }
@@ -97,6 +97,7 @@ button {
     justify-content: center;
     gap: 15px;
     width: 80%;
+    height: 300px;
 
 
 
@@ -108,10 +109,61 @@ button {
 }
 
 .quote-section {
+    display: flex;
+    justify-content: center;
     background-color: #E5E7EB;
-    text-align: center;
+    width: 100%;
+    height: 300px;
 }
 
+.quote {
+    display: flex;
+    width: 38%;
+    text-wrap: wrap;
+    font-style: italic;
+    font-weight: 100;
+    font-size: 26px;
+    align-items: center;
+}
+
+.call-to-action {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    height: 250px;
+    width: 100%
+}
+
+.call-to-action-block {
+    display: flex;
+    justify-content: space-evenly;
+    width:40%;
+    height:50%;
+    background-color: #3882F6;
+    border-radius: 8px;
+}
+
+.ctab-content {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.ctab-content p {
+    margin: 5px 0 0 0;
+}
+
+.ctab-button {
+    display: flex;
+    align-items: center;
+}
+
+.ctab-button button {
+    border-radius: 5px;
+    border: 1px solid white
+}
 
 footer{
     text-align: center;
