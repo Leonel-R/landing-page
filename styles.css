@@ -92,12 +92,20 @@ button {
 
 }
 
+figure {
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    margin: 0;
+    text-align: center;
+}
+
 .upper-middle-content {
     display: flex;
     justify-content: center;
     gap: 15px;
     width: 80%;
-    height: 300px;
+    height: 280px;
 
 
 
