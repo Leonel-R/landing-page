@@ -3,7 +3,7 @@
 body {
     background-color: #1F2937;
     font-family: Arial, Helvetica, sans-serif;
-    
+    margin: 0;
 }
 
 
@@ -38,8 +38,8 @@ button {
     border-radius: 5px ;
     border: 0px;
     color: #F9FAF8;
-    width: 80px;
-    height: 25px;
+    width: 90px;
+    height: 40px;
     font-weight: 1000
 }
 
@@ -118,12 +118,21 @@ button {
 
 .quote {
     display: flex;
+    flex-direction: column;
+    justify-content: center;
     width: 38%;
     text-wrap: wrap;
     font-style: italic;
     font-weight: 100;
     font-size: 26px;
     align-items: center;
+}
+
+.quote-sig {
+    font-weight: 800;
+    margin: 0 0 0 350px;
+    
+
 }
 
 .call-to-action {
